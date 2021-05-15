@@ -7,17 +7,28 @@
 
 import Foundation
 
-func success(successNumbers : [Int], number : Int) -> String {
+func success(successNumbers : [Int], number : Int) -> result {
     if successNumbers.contains(number)
     {
-        return "success"
+        return result.success
     }
     else
     {
-        return "failure"
+        return result.failure
     }
 }
 
 func dice() -> Int {
     return Int.random(in: 1..<7)
+}
+
+
+func rest(player : Player){
+    player.health += 1
+    player.brain += 1
+}
+
+enum result {
+    case success
+    case failure
 }

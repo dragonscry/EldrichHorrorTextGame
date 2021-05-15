@@ -10,8 +10,8 @@ import Foundation
 struct Detective {
     let name : String
     let job : String
-    let action : String
-    let passive : String
+    let action : String //Change
+    let passive : String //Change
     
     let knowledge : Int
     let communication : Int
@@ -22,6 +22,6 @@ struct Detective {
     let maxHealth : Int
     let maxBrain : Int
     
-    let inventory : [Int]
-    let position : String
+    let inventory : [Int] //Change
+    let position : String // Change
 }
