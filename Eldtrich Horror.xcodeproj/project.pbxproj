@@ -10,6 +10,11 @@
 		920AE78E264AC3B900D32556 /* Detective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920AE78D264AC3B900D32556 /* Detective.swift */; };
 		920AE792264DA0E000D32556 /* BaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920AE791264DA0E000D32556 /* BaseFunction.swift */; };
 		9247C5BC264FFB2600D3454F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5BB264FFB2600D3454F /* Item.swift */; };
+		9247C5BF265443FA00D3454F /* Expeditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5BE265443FA00D3454F /* Expeditions.swift */; };
+		9247C5C12654448400D3454F /* Myth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5C02654448400D3454F /* Myth.swift */; };
+		9247C5C3265444AA00D3454F /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5C2265444AA00D3454F /* Contacts.swift */; };
+		9247C5C52654454100D3454F /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5C42654454100D3454F /* Spell.swift */; };
+		9247C5C7265445BD00D3454F /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5C6265445BD00D3454F /* State.swift */; };
 		929B7F452649C2350037CC21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B7F442649C2350037CC21 /* main.swift */; };
 		92BC3E8E264DA42100D852F9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC3E8D264DA42100D852F9 /* Player.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +35,11 @@
 		920AE78D264AC3B900D32556 /* Detective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detective.swift; sourceTree = "<group>"; };
 		920AE791264DA0E000D32556 /* BaseFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFunction.swift; sourceTree = "<group>"; };
 		9247C5BB264FFB2600D3454F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9247C5BE265443FA00D3454F /* Expeditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expeditions.swift; sourceTree = "<group>"; };
+		9247C5C02654448400D3454F /* Myth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myth.swift; sourceTree = "<group>"; };
+		9247C5C2265444AA00D3454F /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		9247C5C42654454100D3454F /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		9247C5C6265445BD00D3454F /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		929B7F412649C2340037CC21 /* Eldtrich Horror */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Eldtrich Horror"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929B7F442649C2350037CC21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		92BC3E8D264DA42100D852F9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -50,8 +60,20 @@
 			isa = PBXGroup;
 			children = (
 				9247C5BB264FFB2600D3454F /* Item.swift */,
+				9247C5C42654454100D3454F /* Spell.swift */,
+				9247C5C6265445BD00D3454F /* State.swift */,
 			);
 			path = Items;
+			sourceTree = "<group>";
+		};
+		9247C5BD265443CC00D3454F /* Game Cards */ = {
+			isa = PBXGroup;
+			children = (
+				9247C5BE265443FA00D3454F /* Expeditions.swift */,
+				9247C5C02654448400D3454F /* Myth.swift */,
+				9247C5C2265444AA00D3454F /* Contacts.swift */,
+			);
+			path = "Game Cards";
 			sourceTree = "<group>";
 		};
 		929B7F382649C2340037CC21 = {
@@ -73,6 +95,7 @@
 		929B7F432649C2340037CC21 /* Eldtrich Horror */ = {
 			isa = PBXGroup;
 			children = (
+				9247C5BD265443CC00D3454F /* Game Cards */,
 				9247C5BA264FF9CA00D3454F /* Items */,
 				929B7F442649C2350037CC21 /* main.swift */,
 				920AE791264DA0E000D32556 /* BaseFunction.swift */,
@@ -139,11 +162,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9247C5C3265444AA00D3454F /* Contacts.swift in Sources */,
+				9247C5C12654448400D3454F /* Myth.swift in Sources */,
 				9247C5BC264FFB2600D3454F /* Item.swift in Sources */,
+				9247C5C7265445BD00D3454F /* State.swift in Sources */,
 				92BC3E8E264DA42100D852F9 /* Player.swift in Sources */,
+				9247C5BF265443FA00D3454F /* Expeditions.swift in Sources */,
 				929B7F452649C2350037CC21 /* main.swift in Sources */,
 				920AE792264DA0E000D32556 /* BaseFunction.swift in Sources */,
 				920AE78E264AC3B900D32556 /* Detective.swift in Sources */,
+				9247C5C52654454100D3454F /* Spell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
