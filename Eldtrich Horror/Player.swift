@@ -9,12 +9,45 @@ import Foundation
 
 class Player {
     var detective : Detective
-    var health : Int
-    var brain : Int
+    
+    //health and brain property for player
+    var maxHealth : Int
+    var maxBrain : Int
+    
+    //get and set properties to manipulate health and brain property
+    var health : Int{
+        get{
+            return maxHealth
+        }
+        set {
+            if newValue > detective.maxHealth
+            {
+                maxHealth = detective.maxHealth
+            }
+            else{
+                maxHealth = newValue
+            }
+        }
+    }
+    var brain : Int{
+        get{
+            return maxBrain
+        }
+        set {
+            if newValue > detective.maxBrain
+            {
+                maxBrain = detective.maxBrain
+            }
+            else{
+                maxBrain = newValue
+            }
+        }
+    }
+    
     
     init(detective : Detective){
         self.detective = detective
-        self.health = detective.maxHealth
-        self.brain = detective.maxBrain
+        self.maxHealth = detective.maxHealth
+        self.maxBrain = detective.maxBrain
     }
 }
