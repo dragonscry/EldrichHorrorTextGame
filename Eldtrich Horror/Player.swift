@@ -8,8 +8,8 @@
 import Foundation
 
 class Player {
+    var playersName : String
     var detective : Detective
-    
     //health and brain property for player
     var maxHealth : Int
     var maxBrain : Int
@@ -45,7 +45,8 @@ class Player {
     }
     
     
-    init(detective : Detective){
+    init(name: String, detective : Detective){
+        playersName = name
         self.detective = detective
         self.maxHealth = detective.maxHealth
         self.maxBrain = detective.maxBrain
