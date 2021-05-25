@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		920AE78E264AC3B900D32556 /* Detective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920AE78D264AC3B900D32556 /* Detective.swift */; };
 		920AE792264DA0E000D32556 /* BaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920AE791264DA0E000D32556 /* BaseFunction.swift */; };
+		920F6476265D10E200568159 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F6475265D10E200568159 /* Position.swift */; };
+		920F6478265D164400568159 /* Portal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F6477265D164400568159 /* Portal.swift */; };
 		9247C5BC264FFB2600D3454F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5BB264FFB2600D3454F /* Item.swift */; };
 		9247C5BF265443FA00D3454F /* Expeditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5BE265443FA00D3454F /* Expeditions.swift */; };
 		9247C5C12654448400D3454F /* Myth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9247C5C02654448400D3454F /* Myth.swift */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		920AE78D264AC3B900D32556 /* Detective.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detective.swift; sourceTree = "<group>"; };
 		920AE791264DA0E000D32556 /* BaseFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFunction.swift; sourceTree = "<group>"; };
+		920F6475265D10E200568159 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		920F6477265D164400568159 /* Portal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portal.swift; sourceTree = "<group>"; };
 		9247C5BB264FFB2600D3454F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9247C5BE265443FA00D3454F /* Expeditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expeditions.swift; sourceTree = "<group>"; };
 		9247C5C02654448400D3454F /* Myth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Myth.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 				929B7F442649C2350037CC21 /* main.swift */,
 				920AE791264DA0E000D32556 /* BaseFunction.swift */,
 				92BC3E8D264DA42100D852F9 /* Player.swift */,
+				920F6475265D10E200568159 /* Position.swift */,
+				920F6477265D164400568159 /* Portal.swift */,
 				920AE78D264AC3B900D32556 /* Detective.swift */,
 			);
 			path = "Eldtrich Horror";
@@ -191,11 +197,13 @@
 				92777C662656E9D900505145 /* Monster.swift in Sources */,
 				92777C632656E8CE00505145 /* Eldrich.swift in Sources */,
 				92BC3E8E264DA42100D852F9 /* Player.swift in Sources */,
+				920F6476265D10E200568159 /* Position.swift in Sources */,
 				9247C5BF265443FA00D3454F /* Expeditions.swift in Sources */,
 				929B7F452649C2350037CC21 /* main.swift in Sources */,
 				920AE792264DA0E000D32556 /* BaseFunction.swift in Sources */,
 				920AE78E264AC3B900D32556 /* Detective.swift in Sources */,
 				9247C5C52654454100D3454F /* Spell.swift in Sources */,
+				920F6478265D164400568159 /* Portal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -44,6 +44,13 @@ class Player {
         }
     }
     
+    func rest() {
+        health += 1
+        print("your player health is \(health)")
+        brain += 1
+        print("your player health is \(brain)")
+    }
+    
     
     init(name: String, detective : Detective){
         playersName = name

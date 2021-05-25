@@ -7,11 +7,14 @@
 
 import Foundation
 
-struct Monster {
+class Monster {
     
 }
 
-struct EpicMonster
-{
+class CommonMonster:Monster{
+    
+}
+
+class EpicMonster:Monster{
     
 }

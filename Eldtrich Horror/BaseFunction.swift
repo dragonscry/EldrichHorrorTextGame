@@ -23,11 +23,6 @@ func dice() -> Int {
 }
 
 
-func rest(player : Player){
-    player.health += 1
-    player.brain += 1
-}
-
 enum result {
     case success
     case failure
