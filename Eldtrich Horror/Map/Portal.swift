@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Omen
+enum Omens
 {
     case green
     case blue
@@ -17,5 +17,5 @@ enum Omen
 struct Portal
 {
     let position : Position
-    let omen : Omen
+    let omen : Omens
 }

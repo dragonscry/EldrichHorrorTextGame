@@ -22,6 +22,10 @@ func dice() -> Int {
     return Int.random(in: 1..<7)
 }
 
+func countDice(){
+    
+}
+
 
 enum result {
     case success
