@@ -58,6 +58,13 @@ class Player {
         }
     }
     
+    let knowledge : Int
+    let communication : Int
+    let attention : Int
+    let strength : Int
+    let will : Int
+    
+    var successNumbers = [5,6]
     //travel method to change position
     func travel() {
         
@@ -102,6 +109,11 @@ class Player {
         self.detective = detective
         self.maxHealth = detective.maxHealth
         self.maxBrain = detective.maxBrain
+        self.knowledge = detective.knowledge
+        self.communication = detective.communication
+        self.attention = detective.attention
+        self.strength = detective.strength
+        self.will = detective.will
         clue = 0
     }
 }

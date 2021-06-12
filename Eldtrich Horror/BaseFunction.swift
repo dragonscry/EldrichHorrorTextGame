@@ -7,14 +7,14 @@
 
 import Foundation
 
-func success(successNumbers : [Int], number : Int) -> result {
+func success(successNumbers : [Int], number : Int) -> Bool {
     if successNumbers.contains(number)
     {
-        return result.success
+        return true
     }
     else
     {
-        return result.failure
+        return false
     }
 }
 
@@ -26,8 +26,37 @@ func countDice(){
     
 }
 
-
-enum result {
-    case success
-    case failure
+func check(checkWhat : String, modificator : Int, player : Player) -> Bool{
+    var number : Int
+    switch checkWhat {
+    case "strength":
+        number = player.strength
+    case "knowledge":
+        number = player.knowledge
+    case "communication":
+        number = player.communication
+    case "attention":
+        number = player.attention
+    case "will":
+        number = player.will
+    default:
+        number = 1
+    }
+    
+    if number-modificator<1{
+        number = 1
+    }
+    else {
+        number -= modificator
+    }
+    
+    for _ in 0..<number{
+        let value = dice()
+        if success(successNumbers: player.successNumbers, number: value){
+            return true
+        }
+    }
+    return false
 }
+
+

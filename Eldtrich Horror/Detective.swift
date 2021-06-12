@@ -17,11 +17,11 @@ struct Detective {
    // let action : String //Change
    // let passive : String //Change
     
-   // let knowledge : Int
-   // let communication : Int
-   // let attention : Int
-   // let strength : Int
-   // let will : Int
+    let knowledge : Int
+    let communication : Int
+    let attention : Int
+    let strength : Int
+    let will : Int
     
     let maxHealth : Int
     let maxBrain : Int
