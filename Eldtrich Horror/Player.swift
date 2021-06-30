@@ -59,6 +59,10 @@ class Player {
         }
     }
     
+    func die(){
+        self.detective = nil
+    }
+    
     //metod for changing items with another player
     func change(){
         
