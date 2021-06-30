@@ -32,17 +32,17 @@ print("there are \(playersCount) players in game")
 
 
 //TEST DELETE
-var d1 = Detective(name: "John", job: "Artist", maxHealth: 6, maxBrain: 6)
-var d2 = Detective(name: "Josh", job: "Photographer", maxHealth: 6, maxBrain: 6)
-var d3 = Detective(name: "Jake", job: "Actor", maxHealth: 6, maxBrain: 6)
-var detectives = [d1,d2,d3]
-var players = [Player]()
+//var d1 = Detective(name: "John", job: "Artist", maxHealth: 6, maxBrain: 6)
+//var d2 = Detective(name: "Josh", job: "Photographer", maxHealth: 6, maxBrain: 6)
+//var d3 = Detective(name: "Jake", job: "Actor", maxHealth: 6, maxBrain: 6)
+//var detectives = [d1,d2,d3]
+//var players = [Player]()
 
 //TODO make initializa players
 for i in 0..<playersCount{
     print("Your name player!")
     let playerName = readLine()
-    players.append(Player(name: playerName ?? "Player \(i)", detective: detectives[i]))
+    //players.append(Player(name: playerName ?? "Player \(i)", detective: detectives[i]))
 }
 
 //Initiliaze Eldrich

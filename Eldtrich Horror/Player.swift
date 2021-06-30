@@ -17,46 +17,6 @@ class Player {
     var clue: Int
     
     //get and set properties to manipulate health and brain property
-    var health : Int{
-        get{
-            return maxHealth
-        }
-        set {
-            if let det = detective{
-                if newValue > det.maxHealth
-                {
-                    maxHealth = det.maxHealth
-                }
-                else{
-                    maxHealth = newValue
-                }
-            }
-            else {
-                print("You have not detective")
-            }
-           
-        }
-    }
-    var brain : Int{
-        get{
-            return maxBrain
-        }
-        set {
-            if let det = detective{
-                if newValue > det.maxBrain
-                {
-                    maxHealth = det.maxBrain
-                }
-                else{
-                    maxHealth = newValue
-                }
-            }
-            else {
-                print("You have not detective")
-            }
-           
-        }
-    }
     
     let knowledge : Int
     let communication : Int
@@ -83,10 +43,20 @@ class Player {
     
     //method for rest
     func rest() {
-        health += 1
-        print("your player health is \(health)")
-        brain += 1
-        print("your player health is \(brain)")
+            maxHealth += 1
+            maxBrain += 1
+        checkHealth()
+    }
+    
+    func checkHealth() {
+        if let currentDetective = self.detective{
+            if maxHealth > currentDetective.maxHealth {
+                maxHealth = currentDetective.maxHealth
+            }
+            if maxBrain > currentDetective.maxBrain {
+                maxBrain = currentDetective.maxBrain
+            }
+        }
     }
     
     //metod for changing items with another player
