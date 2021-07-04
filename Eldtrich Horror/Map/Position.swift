@@ -27,6 +27,6 @@ struct Position
     let type : location
     let connectedWith : [(ways, String)]
     var monsters : [Monster]
-    var portals : String?
+    var portals : Bool
     var clue : Bool
 }
