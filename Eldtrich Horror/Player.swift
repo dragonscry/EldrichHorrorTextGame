@@ -13,7 +13,7 @@ class Player {
     //health and brain property for player
     var maxHealth : Int
     var maxBrain : Int
-    
+    var tickets = 0
     var clue = 0
     
     //get and set properties to manipulate health and brain property
