@@ -23,6 +23,7 @@
 		92777C662656E9D900505145 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92777C652656E9D900505145 /* Monster.swift */; };
 		929B7F452649C2350037CC21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929B7F442649C2350037CC21 /* main.swift */; };
 		92BC3E8E264DA42100D852F9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC3E8D264DA42100D852F9 /* Player.swift */; };
+		9A5F9978269B7FB700006E8A /* preparingForGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F9977269B7FB700006E8A /* preparingForGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		929B7F412649C2340037CC21 /* Eldtrich Horror */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Eldtrich Horror"; sourceTree = BUILT_PRODUCTS_DIR; };
 		929B7F442649C2350037CC21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		92BC3E8D264DA42100D852F9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9A5F9977269B7FB700006E8A /* preparingForGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preparingForGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				9247C5BD265443CC00D3454F /* Game Cards */,
 				9247C5BA264FF9CA00D3454F /* Items */,
 				929B7F442649C2350037CC21 /* main.swift */,
+				9A5F9977269B7FB700006E8A /* preparingForGame.swift */,
 				920AE791264DA0E000D32556 /* BaseFunction.swift */,
 				92BC3E8D264DA42100D852F9 /* Player.swift */,
 				920AE78D264AC3B900D32556 /* Detective.swift */,
@@ -207,6 +210,7 @@
 				9247C5C3265444AA00D3454F /* Contacts.swift in Sources */,
 				9247C5C12654448400D3454F /* Myth.swift in Sources */,
 				9247C5BC264FFB2600D3454F /* Item.swift in Sources */,
+				9A5F9978269B7FB700006E8A /* preparingForGame.swift in Sources */,
 				9247C5C7265445BD00D3454F /* State.swift in Sources */,
 				92457D542666B88A004B1968 /* Omen.swift in Sources */,
 				92777C662656E9D900505145 /* Monster.swift in Sources */,

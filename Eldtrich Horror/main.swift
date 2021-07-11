@@ -10,26 +10,7 @@ import Foundation
 print("Welcome in Eldrich Horror")
 
 //Initializa Players and Players Count
-print("How many players will be?")
-var playersCount = 0
-repeat{
-    let players = readLine()
-    if let pc = players{
-        if let intPc = Int(pc){
-            if intPc < 9 && intPc > 0{
-                playersCount = intPc
-            }
-            else {
-                print("Must be 1 to 8 players")
-            }
-        }
-        else {
-            print("write a count of players by number")
-        }
-    }
-}while playersCount == 0
-print("there are \(playersCount) players in game")
-
+var playersCount = howManyPlayers()
 
 //TEST DELETE
 //var d1 = Detective(name: "John", job: "Artist", maxHealth: 6, maxBrain: 6)

@@ -14,7 +14,7 @@ class Player {
     var maxHealth : Int
     var maxBrain : Int
     
-    var clue: Int
+    var clue = 0
     
     //get and set properties to manipulate health and brain property
     
@@ -27,18 +27,18 @@ class Player {
     var successNumbers = [5,6]
     //travel method to change position
     func travel() {
-        
+        print("\(playersName) travel")
     }
     
     //buy ticket
     func prepareForTravel(){
-        
+        print("\(playersName) prepare for travel")
     }
     
     //buy items - active
     func buyActive()
     {
-        
+        print("\(playersName) buy active")
     }
     
     //method for rest
@@ -88,6 +88,5 @@ class Player {
         self.attention = detective.attention
         self.strength = detective.strength
         self.will = detective.will
-        clue = 0
     }
 }
