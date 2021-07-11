@@ -26,6 +26,8 @@ struct Detective {
     let maxHealth : Int
     let maxBrain : Int
     
+    let position : Position
+    
     //let inventory : [Int] //Change
     //let position : String // Change
 }
