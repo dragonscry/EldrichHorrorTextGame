@@ -17,6 +17,11 @@ class Trader{
             market.append(item)
         }
     }
+    
+    func buyActive(){
+        //TBD
+    }
+    
     init(items : [String]){
         self.items = items
     }
