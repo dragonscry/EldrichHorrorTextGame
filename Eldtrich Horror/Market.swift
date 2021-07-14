@@ -18,8 +18,13 @@ class Trader{
         }
     }
     
-    func buyActive(){
-        //TBD
+    func sellActive(number : Int)->String?{
+        if number + 1 < market.count + 1{
+            return market.remove(at: number)
+        }
+        else{
+            return nil
+        }
     }
     
     init(items : [String]){
