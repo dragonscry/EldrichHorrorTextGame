@@ -25,6 +25,7 @@
 		92BC3E8E264DA42100D852F9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC3E8D264DA42100D852F9 /* Player.swift */; };
 		9A5F9978269B7FB700006E8A /* preparingForGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F9977269B7FB700006E8A /* preparingForGame.swift */; };
 		9A5F997A269E252E00006E8A /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F9979269E252E00006E8A /* Market.swift */; };
+		9A636CB326A46D1C00092F4C /* detectiveDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A636CB226A46D1C00092F4C /* detectiveDATA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +60,7 @@
 		92BC3E8D264DA42100D852F9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		9A5F9977269B7FB700006E8A /* preparingForGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preparingForGame.swift; sourceTree = "<group>"; };
 		9A5F9979269E252E00006E8A /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		9A636CB226A46D1C00092F4C /* detectiveDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectiveDATA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		929B7F432649C2340037CC21 /* Eldtrich Horror */ = {
 			isa = PBXGroup;
 			children = (
+				9A636CB126A46CD000092F4C /* DATA */,
 				92457D502666B72B004B1968 /* Map */,
 				92777C642656E97B00505145 /* Monsters */,
 				92777C612656E8AE00505145 /* Eldrich */,
@@ -151,6 +154,14 @@
 				920AE78D264AC3B900D32556 /* Detective.swift */,
 			);
 			path = "Eldtrich Horror";
+			sourceTree = "<group>";
+		};
+		9A636CB126A46CD000092F4C /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				9A636CB226A46D1C00092F4C /* detectiveDATA.swift */,
+			);
+			path = DATA;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9247C5C3265444AA00D3454F /* Contacts.swift in Sources */,
+				9A636CB326A46D1C00092F4C /* detectiveDATA.swift in Sources */,
 				9247C5C12654448400D3454F /* Myth.swift in Sources */,
 				9247C5BC264FFB2600D3454F /* Item.swift in Sources */,
 				9A5F9978269B7FB700006E8A /* preparingForGame.swift in Sources */,

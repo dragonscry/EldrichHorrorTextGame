@@ -15,6 +15,7 @@ class Player {
     var maxBrain : Int
     var tickets = 0
     var clue = 0
+    var countAction = 2
     
     //get and set properties to manipulate health and brain property
     
@@ -65,7 +66,7 @@ class Player {
     
     //metod for changing items with another player
     func change(){
-        
+        print("Player change")
     }
 
     //method for special detective action

@@ -12,19 +12,14 @@ print("Welcome in Eldrich Horror")
 //Initializa Players and Players Count
 var playersCount = howManyPlayers()
 
-//TEST DELETE
-//var d1 = Detective(name: "John", job: "Artist", maxHealth: 6, maxBrain: 6)
-//var d2 = Detective(name: "Josh", job: "Photographer", maxHealth: 6, maxBrain: 6)
-//var d3 = Detective(name: "Jake", job: "Actor", maxHealth: 6, maxBrain: 6)
-//var detectives = [d1,d2,d3]
-//var players = [Player]()
+var players = playersInitializator(playersCnt: playersCount)
+
+for player in players{
+    print("Player with name \(player.playersName) who played as \(player.detective!.name)")
+}
 
 //TODO make initializa players
-for i in 0..<playersCount{
-    print("Your name player!")
-    let playerName = readLine()
-    //players.append(Player(name: playerName ?? "Player \(i)", detective: detectives[i]))
-}
+
 
 //Initiliaze Eldrich
 //print("Choose your Eldrich")
