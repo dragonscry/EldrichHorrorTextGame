@@ -26,6 +26,8 @@
 		9A5F9978269B7FB700006E8A /* preparingForGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F9977269B7FB700006E8A /* preparingForGame.swift */; };
 		9A5F997A269E252E00006E8A /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5F9979269E252E00006E8A /* Market.swift */; };
 		9A636CB326A46D1C00092F4C /* detectiveDATA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A636CB226A46D1C00092F4C /* detectiveDATA.swift */; };
+		9A83EE9126A9DF0300708878 /* FirstPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83EE9026A9DF0300708878 /* FirstPhase.swift */; };
+		9A83EE9326A9DF1200708878 /* PlayersActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83EE9226A9DF1200708878 /* PlayersActions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +63,8 @@
 		9A5F9977269B7FB700006E8A /* preparingForGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preparingForGame.swift; sourceTree = "<group>"; };
 		9A5F9979269E252E00006E8A /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		9A636CB226A46D1C00092F4C /* detectiveDATA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectiveDATA.swift; sourceTree = "<group>"; };
+		9A83EE9026A9DF0300708878 /* FirstPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPhase.swift; sourceTree = "<group>"; };
+		9A83EE9226A9DF1200708878 /* PlayersActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersActions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 		929B7F432649C2340037CC21 /* Eldtrich Horror */ = {
 			isa = PBXGroup;
 			children = (
+				9A83EE8F26A9DEC100708878 /* 1st Phase */,
 				9A636CB126A46CD000092F4C /* DATA */,
 				92457D502666B72B004B1968 /* Map */,
 				92777C642656E97B00505145 /* Monsters */,
@@ -162,6 +167,15 @@
 				9A636CB226A46D1C00092F4C /* detectiveDATA.swift */,
 			);
 			path = DATA;
+			sourceTree = "<group>";
+		};
+		9A83EE8F26A9DEC100708878 /* 1st Phase */ = {
+			isa = PBXGroup;
+			children = (
+				9A83EE9026A9DF0300708878 /* FirstPhase.swift */,
+				9A83EE9226A9DF1200708878 /* PlayersActions.swift */,
+			);
+			path = "1st Phase";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +244,11 @@
 				92457D542666B88A004B1968 /* Omen.swift in Sources */,
 				92777C662656E9D900505145 /* Monster.swift in Sources */,
 				92777C632656E8CE00505145 /* Eldrich.swift in Sources */,
+				9A83EE9326A9DF1200708878 /* PlayersActions.swift in Sources */,
 				92BC3E8E264DA42100D852F9 /* Player.swift in Sources */,
 				92457D522666B777004B1968 /* Hopelessness.swift in Sources */,
 				920F6476265D10E200568159 /* Position.swift in Sources */,
+				9A83EE9126A9DF0300708878 /* FirstPhase.swift in Sources */,
 				9247C5BF265443FA00D3454F /* Expeditions.swift in Sources */,
 				929B7F452649C2350037CC21 /* main.swift in Sources */,
 				920AE792264DA0E000D32556 /* BaseFunction.swift in Sources */,

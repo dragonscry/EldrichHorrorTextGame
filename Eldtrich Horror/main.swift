@@ -10,16 +10,28 @@ import Foundation
 print("Welcome in Eldrich Horror")
 
 //Initializa Players and Players Count
-var playersCount = howManyPlayers()
+var playersCount = howManyPlayers() //how many players will play
 
-var players = playersInitializator(playersCnt: playersCount)
+var players = playersInitializator(playersCnt: playersCount) //Players choose their name and detectives
 
 for player in players{
     print("Player with name \(player.playersName) who played as \(player.detective!.name)")
 }
 
-//TODO make initializa players
+let Mythes = 16 //PlaceHolder for Myths cards
 
+//Main Game
+var i = 0 //placeholder for myths loop
+while i < 16{
+    
+    //1st Phase - Actions
+    firstPhase(players: players)
+    //2nd Phase - Contacts
+    
+    //3d Phase - Mythes
+    
+   i+=1
+}
 
 //Initiliaze Eldrich
 //print("Choose your Eldrich")
