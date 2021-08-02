@@ -7,6 +7,6 @@
 
 import Foundation
 
-func change(player: inout Player){
+func changeFunction(player: inout Player){
     
 }

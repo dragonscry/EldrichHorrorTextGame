@@ -7,6 +7,6 @@
 
 import Foundation
 
-func travel (player: inout Player){
+func travelFunction (player: inout Player){
     
 }

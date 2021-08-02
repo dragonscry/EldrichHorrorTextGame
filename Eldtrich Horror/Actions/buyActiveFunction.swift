@@ -7,6 +7,6 @@
 
 import Foundation
 
-func buyActive(player: inout Player){
+func buyActiveFunction(player: inout Player){
     
 }

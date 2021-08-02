@@ -11,9 +11,6 @@ struct Detective {
     let name : String
     let job : String
     
-    func action(){
-        
-    }
    // let action : String //Change
    // let passive : String //Change
     

@@ -7,8 +7,8 @@
 
 import Foundation
 
-func firstPhase(players:[Player]){
-    for player in players{
-        playersActions(player: player)
+func firstPhase(players: inout [Player]){
+    for i in 0..<players.count{
+        playersActions(player: &players[i])
     }
 }

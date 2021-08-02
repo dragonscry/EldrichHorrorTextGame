@@ -7,6 +7,6 @@
 
 import Foundation
 
-func prepare (player: inout Player){
+func prepareFunction(player: inout Player){
     
 }

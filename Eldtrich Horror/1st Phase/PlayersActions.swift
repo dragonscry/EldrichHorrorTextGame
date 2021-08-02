@@ -7,7 +7,7 @@
 
 import Foundation
 
-func playersActions(player : Player){
+func playersActions(player : inout Player){
     print("Your turn \(player.playersName)")
     var counts = player.countAction
     var doneActions = [String]()
@@ -22,21 +22,42 @@ func playersActions(player : Player){
                 print("it action was done before")
                 break
             }
-            player.rest()
+            restFunction(player: &player)
             counts -= 1
-        case "attack":
+        case "travel":
             if checkAction(array: &doneActions, action: answer){
                 print("it action was done before")
                 break
             }
-            print("Player \(player.playersName) attack")
+            travelFunction(player: &player)
             counts -= 1
-        case "move":
+        case "buy active":
             if checkAction(array: &doneActions, action: answer){
                 print("it action was done before")
                 break
             }
-            print("Player \(player.playersName) move")
+            buyActiveFunction(player: &player)
+            counts -= 1
+        case "change":
+            if checkAction(array: &doneActions, action: answer){
+                print("it action was done before")
+                break
+            }
+            changeFunction(player: &player)
+            counts -= 1
+        case "prepare to travel":
+            if checkAction(array: &doneActions, action: answer){
+                print("it action was done before")
+                break
+            }
+            prepareFunction(player: &player)
+            counts -= 1
+        case "detective function":
+            if checkAction(array: &doneActions, action: answer){
+                print("it action was done before")
+                break
+            }
+            print("Player \(player.playersName) detective function")
             counts -= 1
         default:
             print("No such action, try again")

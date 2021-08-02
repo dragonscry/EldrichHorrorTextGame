@@ -7,6 +7,9 @@
 
 import Foundation
 
-func rest(player: inout Player){
+func restFunction(player: inout Player){
+    
+    player.maxBrain += 1
+    player.maxHealth += 1
     
 }
