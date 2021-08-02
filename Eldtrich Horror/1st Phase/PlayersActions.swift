@@ -12,15 +12,17 @@ func playersActions(player : Player){
     var counts = player.countAction
     var doneActions = [String]()
     while counts != 0 {
-        print("what action \(player.playersName)?")
+        
+        print("what action \(player.playersName)?") //interact with player
         let answer = readLine()
+        
         switch answer {
         case "rest":
             if checkAction(array: &doneActions, action: answer){
                 print("it action was done before")
                 break
             }
-            print("Player \(player.playersName) rest")
+            player.rest()
             counts -= 1
         case "attack":
             if checkAction(array: &doneActions, action: answer){
